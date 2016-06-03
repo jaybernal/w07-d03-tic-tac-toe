@@ -5,3 +5,25 @@
 .hidden {
   display: none;
 }
+
+.board{
+ display: flex;
+justify-content: center;
+}
+
+.board-tile {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+
+
+#tile-1-1 {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0px;
+  margin-left: -4px;
+  border: 1px solid #333;
+  border-radius:0px;
+  font-size: 30px;
+}
